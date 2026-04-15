@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 
-const SITE_ORIGIN = 'https://becraftimmigrationlaw.com';
+const SITE_ORIGIN = 'https://www.becraftimmigrationlaw.com';
 
 interface HreflangEntry {
   lang: string;

@@ -13,4 +13,4 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
-Sitemap: https://www.makeitglow.co/sites/becraft-immigration/sitemap.xml
+Sitemap: https://www.becraftimmigrationlaw.com/sitemap.xml
