@@ -5,7 +5,7 @@ const team = [
   {
     name: 'Todd Becraft',
     title: 'Abogado Fundador',
-    photo: 'https://becraftimmigrationlaw.com/wp-content/uploads/2025/10/todd-becraft-portrait-01-becraft-immigration-law-980x1337.webp',
+    photo: 'https://images.makeitglow.co/projects/becraft-immigration/c2debc6ca78f9ac4-todd-becraft-portrait-01-becraft-immigration-law-980x1337.webp',
     highlight: 'Más de 20 Años en Derecho Migratorio',
     bio: [
       'Todd Becraft es el abogado fundador de la Law Office of Todd Becraft, donde ha dedicado su carrera exclusivamente al derecho migratorio durante más de 20 años. Es el actual Vicepresidente del Capítulo SoCal de AILA y ex Presidente de la Sección de Inmigración del Colegio de Abogados del Condado de Los Ángeles.',
@@ -16,7 +16,7 @@ const team = [
   {
     name: 'Dennis Escobar',
     title: 'Paralegal Principal y Gerente de Oficina',
-    photo: 'https://becraftimmigrationlaw.com/wp-content/uploads/2025/10/dennis-escobar-portrait-becraft-immigration-law-980x1337.webp',
+    photo: 'https://images.makeitglow.co/projects/becraft-immigration/8f93bc42d26b873e-dennis-escobar-portrait-becraft-immigration-law-980x1337.webp',
     highlight: 'Más de 25 Años en Derecho Migratorio',
     bio: [
       'Durante más de 25 años, Dennis Escobar ha dedicado su carrera al derecho migratorio. Como Paralegal Principal y Gerente de Oficina, Dennis administra las operaciones diarias de la oficina mientras trabaja estrechamente con abogados y clientes en prácticamente todas las etapas de un caso.',
@@ -27,7 +27,7 @@ const team = [
     name: 'Gianina Haro',
     title: 'Paralegal',
     highlight: 'Más de 30 Años en Derecho Migratorio',
-    photo: 'https://becraftimmigrationlaw.com/wp-content/uploads/2025/10/gianina-haro-portrait-becraft-immigration-law-980x1337.webp',
+    photo: 'https://images.makeitglow.co/projects/becraft-immigration/4baa423944dd3952-gianina-haro-portrait-becraft-immigration-law-980x1337.webp',
     bio: [
       'Con más de treinta años de experiencia en derecho migratorio, Gianina Haro es un pilar fundamental de apoyo al cliente en la Law Office of Todd Becraft. Se especializa en preparar trámites, recopilar evidencia y gestionar los detalles que mantienen los casos en movimiento.',
       'Bilingüe en inglés y español, Gianina tiende puentes de comunicación, ayudando a los clientes a sentirse cómodos y comprendidos. Trabaja en una amplia gama de asuntos migratorios, incluyendo solicitudes de asilo, peticiones familiares, exenciones y naturalización.',
@@ -36,7 +36,7 @@ const team = [
   {
     name: 'Imani Machado',
     title: 'Directora de Marketing y Especialista en Clientes',
-    photo: 'https://becraftimmigrationlaw.com/wp-content/uploads/2025/10/imani-machado-portrait-becraft-immigration-law-980x1337.webp',
+    photo: 'https://images.makeitglow.co/projects/becraft-immigration/c309104b568a8ee4-imani-machado-portrait-becraft-immigration-law-980x1337.webp',
     bio: [
       'Imani Machado aporta creatividad, estrategia y compasión a su rol como Directora de Marketing y Especialista en Clientes. Con más de una década de experiencia en marketing legal y relaciones con clientes, asegura que la misión de defensa del despacho se extienda más allá de la sala de audiencias.',
       'Imani gestiona los esfuerzos de alcance comunitario, desarrolla recursos educativos y trabaja directamente con los clientes para brindarles apoyo y orientación a lo largo de su proceso migratorio. Su dedicación se extiende a la comunidad en general, donde colabora con organizaciones que sirven a familias inmigrantes en todo el sur de California.',
@@ -86,7 +86,7 @@ export default function SpanishAboutPage() {
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://becraftimmigrationlaw.com/wp-content/uploads/2025/10/unnamed-10-scaled.webp"
+            src="https://images.makeitglow.co/projects/becraft-immigration/d4f20bfcce771e9e-unnamed-10-scaled.webp"
             alt="El equipo de Becraft Immigration Law"
             className="hidden md:block w-full h-full object-cover"
           />

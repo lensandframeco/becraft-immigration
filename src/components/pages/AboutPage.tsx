@@ -13,7 +13,7 @@ const team: TeamMember[] = [
   {
     name: 'Todd Becraft',
     title: 'Founding Attorney',
-    photo: 'https://becraftimmigrationlaw.com/wp-content/uploads/2025/10/todd-becraft-portrait-01-becraft-immigration-law-980x1337.webp',
+    photo: 'https://images.makeitglow.co/projects/becraft-immigration/c2debc6ca78f9ac4-todd-becraft-portrait-01-becraft-immigration-law-980x1337.webp',
     highlight: '20+ Years in Immigration Law',
     bio: [
       'Todd Becraft is the founding attorney of the Law Office of Todd Becraft, where he has dedicated his career exclusively to immigration law for over 20 years. He is the current Vice Chair of the AILA SoCal Chapter and former Chair of the Los Angeles County Bar Immigration Section.',
@@ -24,7 +24,7 @@ const team: TeamMember[] = [
   {
     name: 'Dennis Escobar',
     title: 'Lead Paralegal & Office Manager',
-    photo: 'https://becraftimmigrationlaw.com/wp-content/uploads/2025/10/dennis-escobar-portrait-becraft-immigration-law-980x1337.webp',
+    photo: 'https://images.makeitglow.co/projects/becraft-immigration/8f93bc42d26b873e-dennis-escobar-portrait-becraft-immigration-law-980x1337.webp',
     highlight: '25+ Years in Immigration Law',
     bio: [
       'For more than 25 years, Dennis Escobar has dedicated his career to immigration law. As the Lead Paralegal and Office Manager, Dennis manages the daily operations of the office while working closely with attorneys and clients on nearly every stage of a case.',
@@ -35,7 +35,7 @@ const team: TeamMember[] = [
     name: 'Gianina Haro',
     title: 'Paralegal',
     highlight: '30+ Years in Immigration Law',
-    photo: 'https://becraftimmigrationlaw.com/wp-content/uploads/2025/10/gianina-haro-portrait-becraft-immigration-law-980x1337.webp',
+    photo: 'https://images.makeitglow.co/projects/becraft-immigration/4baa423944dd3952-gianina-haro-portrait-becraft-immigration-law-980x1337.webp',
     bio: [
       'With over thirty years of experience in immigration law, Gianina Haro is a cornerstone of client support at the Law Office of Todd Becraft. She specializes in preparing filings, gathering evidence, and managing the details that keep cases moving forward seamlessly.',
       'Fluent in both English and Spanish, Gianina bridges communication gaps, helping clients feel comfortable and understood. She works across a wide range of immigration matters, including asylum applications, family-based petitions, waivers, and naturalization.',
@@ -44,7 +44,7 @@ const team: TeamMember[] = [
   {
     name: 'Imani Machado',
     title: 'Marketing Director & Client Specialist',
-    photo: 'https://becraftimmigrationlaw.com/wp-content/uploads/2025/10/imani-machado-portrait-becraft-immigration-law-980x1337.webp',
+    photo: 'https://images.makeitglow.co/projects/becraft-immigration/c309104b568a8ee4-imani-machado-portrait-becraft-immigration-law-980x1337.webp',
     bio: [
       'Imani Machado brings creativity, strategy, and compassion to her role as Marketing Director and Client Specialist. With over a decade of experience in legal marketing and client relations, she ensures that the firm\'s mission of advocacy extends beyond the courtroom and into every interaction with clients and the broader community.',
       'Imani manages outreach efforts, develops educational resources, and works directly with clients to provide support and guidance throughout their immigration journey. Her dedication extends into the broader community, where she partners with organizations and initiatives that serve immigrant families across Southern California.',
@@ -89,7 +89,7 @@ export default function AboutPage() {
         <div className="absolute inset-0">
           {/* Desktop: landscape original */}
           <img
-            src="https://becraftimmigrationlaw.com/wp-content/uploads/2025/10/unnamed-10-scaled.webp"
+            src="https://images.makeitglow.co/projects/becraft-immigration/d4f20bfcce771e9e-unnamed-10-scaled.webp"
             alt="The Becraft Immigration Law team"
             className="hidden md:block w-full h-full object-cover"
           />

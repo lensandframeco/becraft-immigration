@@ -240,7 +240,7 @@ export default function HomePage() {
             <div className="relative">
               <div className="rounded-sm overflow-hidden">
                 <img
-                  src="https://becraftimmigrationlaw.com/wp-content/uploads/2025/10/todd-becraft-portrait-01-becraft-immigration-law-980x1337.webp"
+                  src="https://images.makeitglow.co/projects/becraft-immigration/c2debc6ca78f9ac4-todd-becraft-portrait-01-becraft-immigration-law-980x1337.webp"
                   alt="Todd Becraft, Founding Attorney"
                   className="w-full aspect-[4/5] object-cover object-top"
                 />
