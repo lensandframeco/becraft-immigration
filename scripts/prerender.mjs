@@ -2,6 +2,8 @@ import http from "http";
 import { promises as fs } from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import puppeteer from "puppeteer-core";
+import chromium from "@sparticuz/chromium";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const distDir = path.resolve(__dirname, "..", "dist");
@@ -69,10 +71,12 @@ async function main() {
   });
   await new Promise((r) => server.listen(port, "127.0.0.1", r));
 
-  const { default: puppeteer } = await import("puppeteer");
+  const executablePath = await chromium.executablePath();
   const browser = await puppeteer.launch({
     headless: true,
-    args: ["--no-sandbox", "--disable-setuid-sandbox", "--disable-dev-shm-usage", "--disable-gpu"],
+    args: [...chromium.args, "--no-sandbox", "--disable-setuid-sandbox", "--disable-dev-shm-usage"],
+    executablePath,
+    defaultViewport: chromium.defaultViewport,
   });
 
   const CONCURRENCY = 3;
