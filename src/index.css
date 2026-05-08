@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    color: #2D3748;
+    background-color: #FAFAF8;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+@layer components {
+  .btn-gold {
+    @apply inline-flex items-center justify-center px-8 py-3.5 bg-[#D4A853] text-[#1B2A4A] font-semibold rounded-sm
+           hover:bg-[#C49A48] transition-all duration-300 tracking-wide text-sm uppercase;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center px-8 py-3.5 border-2 border-[#D4A853] text-[#D4A853] font-semibold rounded-sm
+           hover:bg-[#D4A853] hover:text-[#1B2A4A] transition-all duration-300 tracking-wide text-sm uppercase;
+  }
+
+  .btn-white {
+    @apply inline-flex items-center justify-center px-8 py-3.5 bg-white text-[#1B2A4A] font-semibold rounded-sm
+           hover:bg-gray-100 transition-all duration-300 tracking-wide text-sm uppercase;
+  }
+
+  .gold-line {
+    @apply w-16 h-0.5 bg-[#D4A853];
+  }
+
+  .gold-line-center {
+    @apply w-16 h-0.5 bg-[#D4A853] mx-auto;
+  }
+
+  .section-padding {
+    @apply py-20 md:py-28 px-4 sm:px-6 lg:px-8;
+  }
+
+  .nav-link {
+    @apply text-gray-200 hover:text-[#D4A853] transition-colors duration-200 text-sm tracking-wide uppercase font-medium;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
+  }
+}
+
+@layer utilities {
+  .text-navy {
+    color: #1B2A4A;
+  }
+
+  .bg-navy {
+    background-color: #1B2A4A;
+  }
+
+  .text-gold {
+    color: #D4A853;
+  }
+
+  .bg-gold {
+    background-color: #D4A853;
+  }
+
+  .border-gold {
+    border-color: #D4A853;
+  }
+
+  .bg-warm-white {
+    background-color: #FAFAF8;
+  }
+
+  .bg-warm-gray {
+    background-color: #F5F3EF;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F5F3EF;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1B2A4A;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2A3F6A;
+}
+
+/* Form focus states */
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: #D4A853 !important;
+  box-shadow: 0 0 0 3px rgba(212, 168, 83, 0.15);
+}
