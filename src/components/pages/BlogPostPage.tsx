@@ -17,8 +17,6 @@ export default function BlogPostPage() {
     );
   }
 
-  const paragraphs = post.content.split('\n').filter((line) => line.trim() !== '');
-
   return (
     <div>
       <SEO
@@ -59,27 +57,21 @@ export default function BlogPostPage() {
       {/* Content */}
       <section className="section-padding bg-warm-white">
         <div className="max-w-3xl mx-auto">
-          <div className="bg-white rounded-sm border border-gray-100 p-8 md:p-12 space-y-4 text-gray-700 leading-relaxed">
-            {paragraphs.map((para, i) => {
-              const isHeading =
-                para.length < 90 &&
-                !para.endsWith('.') &&
-                !para.endsWith(',') &&
-                !para.endsWith(':') &&
-                i !== 0;
-              if (isHeading) {
-                return (
-                  <h2 key={i} className="text-lg font-serif font-bold text-[#1B2A4A] pt-4 first:pt-0">
-                    {para}
+          <div className="bg-white rounded-sm border border-gray-100 p-8 md:p-12 space-y-8 text-gray-700 leading-relaxed">
+            {post.sections.map((section, i) => (
+              <div key={i}>
+                {section.heading && (
+                  <h2 className="text-lg font-serif font-bold text-[#1B2A4A] mb-4">
+                    {section.heading}
                   </h2>
-                );
-              }
-              return (
-                <p key={i} className="text-base leading-relaxed">
-                  {para}
-                </p>
-              );
-            })}
+                )}
+                {section.paragraphs?.map((para, j) => (
+                  <p key={j} className="text-base leading-relaxed mb-4">
+                    {para}
+                  </p>
+                ))}
+              </div>
+            ))}
           </div>
         </div>
       </section>
